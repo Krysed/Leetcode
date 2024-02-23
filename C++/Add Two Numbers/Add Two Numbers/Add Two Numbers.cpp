@@ -61,7 +61,7 @@ It is guaranteed that the list represents a number that does not have leading ze
               current->next = new ListNode(carry);
           }
 
-          return dummy->next; // Return the next node after the dummy node (head of the result list)
+          return dummy->next;
       }
   };
 
